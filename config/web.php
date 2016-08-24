@@ -45,6 +45,13 @@ $config = [
             'rules' => [
             ],
         ],
+        'view'=>[
+            'theme'=>[
+                'pathMap'=>[
+                    '@app/views'=>'@app/themes/agency'
+                ]
+            ]
+        ],
 
     ],
     'params' => $params,
